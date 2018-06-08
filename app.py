@@ -32,8 +32,8 @@ def root():
     logging.info('INFO: service1')
     res = Response(
         messageHelper.messageBuilder(strHostname), 
-        mimetype='text/plain', 
-        status=201)
+        mimetype='text/plain')
+        
 
     return res
 
